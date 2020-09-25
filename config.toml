@@ -1,0 +1,28 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "flitzpiepe&criatura"
+theme = "hugo-rocinante"
+paginate = 3
+summaryLength = 0
+
+[markup]
+  [markup.highlight]
+    style = "monokailight"
+    tabWidth = 2
+  [markup.goldmark.renderer]
+    unsafe= true
+
+[author]
+  name = "criatura"
+
+[params]
+  mainSections = ["post", "photos"]
+  email = "email@example.com"
+  favicon = "/icon/flitzpiepe.jpg"
+  about = """
+  
+Hi Mariana aka flitzpiepe. This is a small something that I did during my morning. As I can not send you anything, I guess the internet is a good
+way to stay connected...I hope it doesn't strike too! I dont know what this will turn out to be, maybe a website for our book club? Feel free to 
+tell me your ideas, I am very much glad about your suggestions (-:. For now I will use it for all the little things that are not easily being 
+shared in a Telegram friendship. I hope you can enjoy. 
+"""
